@@ -8,7 +8,7 @@ class App extends React.Component {
   render() {
       return (
           <section className="section">
-              <div className="columns">
+              <div className="columns is-desktop">
                   <div className="column">
                       <SocialCard
                           shares={20}
