@@ -1,11 +1,13 @@
 .social-card
     &-wrapper
         position: relative
-        width: 335px
         height: 450px
-        margin-bottom: 30px
-        +after(550px)
-            width: 500px
+        margin: 0 auto 30px auto
+        width: 80%
+        +below(800px)
+            height: 550px
+        +after(800px)
+            width: 100%
         &-inner
             padding: 0
             border: 1px solid gray
@@ -13,13 +15,19 @@
             height: calc(100% - 40px)
     &-image
         height: 75%
+        +below(800px)
+            height: 50%
         img
             border-radius: 10px
             height: 100%
+            +below(800px)
+                width: 100%
     &-content
         padding: 10px
         height: 25%
         font-size: 14px
+        +below(800px)
+            height: 50%
         &-title
             font-size: 16px
             font-weight: bold

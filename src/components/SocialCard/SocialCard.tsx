@@ -1,6 +1,5 @@
 import * as React from 'react';
 import SocialCardFooter from "./SocialCardFooter/SocialCardFooter";
-import SocialCardImage from "./image/social-card-react-2.png"
 
 interface ISocialCardProps {
     comments: number;

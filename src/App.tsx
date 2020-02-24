@@ -7,8 +7,8 @@ import "./App.sass"
 class App extends React.Component {
   render() {
       return (
-          <section className="section">
-              <div className="columns is-desktop">
+          <div className="container">
+              <div className="columns">
                   <div className="column">
                       <SocialCard
                           shares={20}
@@ -34,7 +34,7 @@ class App extends React.Component {
                       />
                   </div>
               </div>
-          </section>
+          </div>
       );
   }
 }
